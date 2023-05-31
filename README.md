@@ -3,24 +3,24 @@
 Releases can be found here - https://github.com/DDNStorage/exa-csi-driver/releases
 
 ## Feature List
-|Feature|Feature Status|CSI Driver Version|CSI Spec Version|Kubernetes Version|
-|--- |--- |--- |--- |--- |
-|Static Provisioning|GA|>= 1.0.0|>= 1.0.0|>=1.18|
-|Dynamic Provisioning|GA|>= 1.0.0|>= 1.0.0|>=1.18|
-|RW mode|GA|>= 1.0.0|>= 1.0.0|>=1.18|
-|RO mode|GA|>= 1.0.0|>= 1.0.0|>=1.18|
-|Expand volume|GA|>= 1.0.0|>= 1.1.0|>=1.18|
-|StorageClass Secrets|GA|>= 1.0.0|>=1.0.0|>=1.18|
-|Mount options|GA|>= 1.0.0|>= 1.0.0|>=1.18|
-|Topology|GA|>= v2.0.0|>= v1.0.0|>=1.17|
+|Feature              |Status |CSI Driver|CSI Spec|Kubernetes|
+|:---                 |:---:  |:---:     |:---:   |:---:     |
+|Static Provisioning  |GA     | ≥ 1.0.0  |≥ 1.0.0 |≥ 1.18    |
+|Dynamic Provisioning |GA     | ≥ 1.0.0  |≥ 1.0.0 |≥ 1.18    |
+|RW mode              |GA     | ≥ 1.0.0  |≥ 1.0.0 |≥ 1.18    |
+|RO mode              |GA     | ≥ 1.0.0  |≥ 1.0.0 |≥ 1.18    |
+|Expand volume        |GA     | ≥ 1.0.0  |≥ 1.1.0 |≥ 1.18    |
+|StorageClass Secrets |GA     | ≥ 1.0.0  |≥ 1.0.0 |≥ 1.18    |
+|Mount options        |GA     | ≥ 1.0.0  |≥ 1.0.0 |≥ 1.18    |
+|Topology             |GA     | ≥ 2.0.0  |≥ 1.0.0 |≥ 1.17    |
 
 ## Access Modes support
-|Access mode| Supported in version|
-|--- |--- |
-|ReadWriteOnce| >=1.0.0 |
-|ReadOnlyMany| >=2.2.0 |
-|ReadWriteMany| >=1.0.0 |
-|ReadWriteOncePod| >=2.2.0 |
+|Access mode      | Supported in version|
+|:---             |:---:                |
+|ReadWriteOnce    |≥ 1.0.0              |
+|ReadOnlyMany     |≥ 2.2.0              |
+|ReadWriteMany    |≥ 1.0.0              |
+|ReadWriteOncePod |≥ 2.2.0              |
 
 ## Requirements
 
